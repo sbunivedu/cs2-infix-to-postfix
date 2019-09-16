@@ -5,10 +5,6 @@ public class Tester{
    * Reads and evaluates multiple postfix expressions.
    */
   public static void main(String[] args){
-    String expression, again;
-    String result;
-  
-    Scanner in = new Scanner(System.in);
     InfixToPostfixConverter converter = new InfixToPostfixConverter();
     System.out.println(converter.convert("a + b"));
     System.out.println(converter.convert("2 + 3 * 4"));
