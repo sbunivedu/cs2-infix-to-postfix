@@ -1,9 +1,9 @@
-# infix2postfix
+# Infix to Postfix Converter
 
 The `InfixToPostfixConverter` class implements the infix 
 to postfix conversion algorithm in the `convert` method.
 
-Given an expressoion in the __infix__ format as a Java String
+Given an expression in the __infix__ format as a Java String
 object, the `convert` method returns a String object of
 the expression in the __postfix__ format. Both the input and
 the output expressions must use one or more space characters as
